@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace TaxCalculator.DataModels
 {
-    internal class KosztyZdrowotne : Koszty
+    internal class UmowaZlecenie : Umowa
     {
         float podstawa;
 
         const float kwotaPomniejszajaca = 46.33f;
 
-        public KosztyZdrowotne(float podstawa)
+        public UmowaZlecenie(float podstawa)
         {
             this.podstawa = podstawa;
             base.dict = new Dictionary<string, Tuple<string, float>>()

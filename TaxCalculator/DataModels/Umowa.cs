@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TaxCalculator.DataModels
 {
-    abstract class Koszty
+    abstract class Umowa
     {
         protected Dictionary<string, Tuple<string, float>> dict;
 

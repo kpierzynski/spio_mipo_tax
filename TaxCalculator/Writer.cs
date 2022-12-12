@@ -9,7 +9,7 @@ namespace TaxCalculator
 {
     internal class Writer
     {
-        public void PrezentujKoszty( Koszty koszty )
+        public void PrezentujKoszty( Umowa koszty )
         {
             foreach( var (key,(nazwa, wartosc)) in koszty.PobierzSkladki() )
             {

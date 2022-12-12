@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace TaxCalculator.DataModels
 {
-    internal class KosztySpoleczny : Koszty
+    internal class UmowaPraca : Umowa
     {
         float podstawa;
 
-        public KosztySpoleczny( float podstawa )
+        public UmowaPraca( float podstawa )
         {
             this.podstawa = podstawa;
             base.dict = new Dictionary<string, Tuple<string, float>>()

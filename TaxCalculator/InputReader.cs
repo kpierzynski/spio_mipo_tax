@@ -29,7 +29,7 @@ namespace TaxCalculator {
 
                 return new InputReaderData { podstawa = value, typ = chr };
             } catch (Exception e) {
-                throw new Exception( "Niepoprawne wejście." );
+                throw new Exception( "Podane dane są nieprawidłowe." );
             }
         }
     }
