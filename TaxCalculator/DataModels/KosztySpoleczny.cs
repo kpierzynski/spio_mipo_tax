@@ -22,7 +22,7 @@ namespace TaxCalculator.DataModels
         }
         float ObliczSkladkeEmerytalna()
         {
-            throw new NotImplementedException(); 
+           throw new NotImplementedException("Missing implementation of method."); 
         }
 
     }
